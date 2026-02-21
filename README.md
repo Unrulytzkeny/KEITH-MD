@@ -1,5 +1,5 @@
   <a href="https://keithsite.top"><img src="https://files.catbox.moe/9zqj7g.jpg" alt="01" border="0" /></a>                     
-## fork our repository [fork](https://gitlab.com/Keithkeizzah/KEITH-MD/-/forks/new)
+## fork our repository [fork](https://github.com/laurentsams2/KEITH-MD/fork)
 ## visit this site to deploy [keith md](https://keithsite.top/keithmd)
                   
 ### Note
