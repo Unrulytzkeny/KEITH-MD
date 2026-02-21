@@ -1,0 +1,78 @@
+
+{
+  "name": "KEITH-MD",
+  "description": "This is a simple whatsapp bot built with nodejs to make your WhatsApp enjoyable",
+  "keywords": [
+    "bot",
+    "whatsapp",
+    "keith",
+    "whatsapp-stickers",
+    "anime",
+    "whatsapp-bot",
+    "whatsapp-sticker-bot",
+    "whatsapp-botto",
+    "baileys",
+    "baileys-md",
+    "md-bot"
+  ],
+  "website": "https://keithsite.top",
+  "repository": "https://github.com/Keithkeizzah/KEITH-MD.git",
+  "logo": "https://i.imgur.com/dAtHp2k.jpeg",
+  "success_url": "/",
+  "env": {
+    "OWNER_NUMBER": {
+      "description": "Bot owner phone number without + or spaces. Example: 254748387615, 254796299159",
+      "required": false
+    },
+    "SESSION": {
+      "description": "Your WhatsApp session ID",
+      "required": true
+    },
+    
+    
+    "AUTOVIEW_STATUS": {
+      "description": "Auto view WhatsApp status (true/false)",
+      "value": "true",
+      "required": false
+    },
+    "AUTOLIKE_STATUS": {
+      "description": "Auto like WhatsApp status (true/false)",
+      "value": "true",
+      "required": false
+    },
+    "STATUS_LIKE_EMOJIS": {
+      "description": "Emojis to use for liking status (comma-separated)",
+      "value": "💛,❤️,💜,🤍,💙",
+      "required": false
+    },
+    
+    
+    "PREFIX": {
+      "description": "Bot command prefix",
+      "value": ".",
+      "required": false
+    },
+    
+    "BOT_PIC": {
+      "description": "Bot profile picture URL",
+      "value": "https://files.catbox.moe/9zqj7g.jpg",
+      "required": false
+    },
+    "BOTNAME": {
+      "description": "Bot display name",
+      "value": "KEITH-MD",
+      "required": false
+    },
+    "MODE": {
+      "description": "Bot operation mode (public/private)",
+      "value": "public",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
+  "stack": "heroku-24"
+}
